@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>HTML SURVEY Re: Coding Forum</title>
+</head>
+<body>
+    <h1>IE Coding III SURVEY</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name:
+            </label>
+
+            <input type="text"
+                   id="name"
+                   placeholder="Tony Montana" />
+        </div>
+
+        <div class="form-control">
+            <label>
+                Sex
+            </label>
+
+            <label>
+                <input type="radio"
+                       id="sex-male"
+                       name="sex-male">
+                       <label for="sex-male">Male</label>
+            </label>
+            <label>
+                <input type="radio"
+                       id="sex-female"
+                       name="sex-female">
+                       <label for="sex-female">Female</label>
+            </label>
+
+            <label>
+            <label for="email">Email</label>
+            <input type="text" id="email"
+                   name="email"
+                   placeholder="Tony@scarface.com"><br><br>
+            </label>
+
+            <label for="age">Age</label>
+            <input type="number" min="1" max="100" value="1"
+                   name="age"><br><br>
+
+            <label for="open_question">What is the weather where you are?</label>
+            <input type="text" id="o-question" name="o-question" placeholder="Cold AF"><br><br>
+
+            <label for="closed_question">Have you been to China before?</label>
+            <input type="radio" id="question-yes" name="question-yes">
+            <label for="question-yes">Yes</label>
+            <input type="radio" id="question-no" name="question-no">
+            <label for="question-no">No</label><br><br>
+
+            <input type="submit" value="Submit">
+
+</body>
+</html>
